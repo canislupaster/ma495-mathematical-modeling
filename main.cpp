@@ -237,7 +237,7 @@ int main(int argc, char** argv) {
 			}
 			
 			double x=sir.vars[0](0)-infected_counts[i];
-			mse+=x*x;
+			mse+=x*x*1e4;
 		}
 
 		plot<<"e\n";
